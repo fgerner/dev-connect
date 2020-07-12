@@ -4,7 +4,11 @@ const connectDb = require('./config/db');
 const app = express();
 const port = process.env.PORT || 5000;
 
+//Connect Mongo
 connectDb();
+
+//Middleware init
+app.use(express.json({extended: false}));
 
 app.get('/', (req, res) => {
     res.send('Api running');

@@ -1,3 +1,48 @@
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "test name2",
+  "email": "test8@test.com",
+  "password": "abc123"
+}
+
+###
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "test test",
+  "email": "test@test.com"
+}
+
+###
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "",
+  "email": "test@test.com",
+  "password": "abc123"
+}
+
+###
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "test"
+}
+
+###
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "test"
+}
+
+###
 GET http://localhost:5000/api/profile
 Accept: application/json
 
