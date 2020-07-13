@@ -24,6 +24,8 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^5.2.0",
+    "faker": "^4.1.0",
+    "supertest": "^4.0.2"
   }
 }
