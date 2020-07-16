@@ -1,11 +1,16 @@
+GET http://localhost:5000/api/profile
+Accept: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmMGM0ZDQ0YjNiMmZmNDNkYWM2MTUwYiIsImlhdCI6MTU5NDkwMDA2MCwiZXhwIjoxNTk0OTkwMDYwfQ.dm-eZtKbtapDhbyXSeZ509g05BcFjdLpI6cHcboKqmE
+
+###
 POST http://localhost:5000/api/profile
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmMGM0ZDQ0YjNiMmZmNDNkYWM2MTUwYiIsImlhdCI6MTU5NDgwOTQ0OSwiZXhwIjoxNTk0ODk5NDQ5fQ.GRs8dy8Ym5AVVM6xQVA9RZYJvaSDQqG4gzf8utYH4vs
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmMGM0ZDQ0YjNiMmZmNDNkYWM2MTUwYiIsImlhdCI6MTU5NDkwMDA2MCwiZXhwIjoxNTk0OTkwMDYwfQ.dm-eZtKbtapDhbyXSeZ509g05BcFjdLpI6cHcboKqmE
 
 {
-  "company": "mine",
+  "company": "my first one",
   "status": "developer",
-  "skills": "javascript, blow shit up, ruby",
+  "skills": "javascript, blow shit up, ruby, whistle",
   "facebook": "face_poo"
 }
 
